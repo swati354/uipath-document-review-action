@@ -2,20 +2,45 @@
   "inputs": {
     "type": "object",
     "properties": {
-      "exampleInput": {
+      "bucketId": {
+        "type": "integer",
+        "required": true,
+        "description": "UiPath Storage Bucket ID"
+      },
+      "folderId": {
+        "type": "integer", 
+        "required": true,
+        "description": "UiPath Folder ID for scoping"
+      },
+      "path1": {
+        "type": "string",
+        "required": false,
+        "description": "Path to first document in bucket"
+      },
+      "path2": {
+        "type": "string",
+        "required": false,
+        "description": "Path to second document in bucket"
+      },
+      "path3": {
+        "type": "string",
+        "required": false,
+        "description": "Path to third document in bucket"
+      },
+      "entityName": {
         "type": "string",
         "required": true,
-        "description": "Example input field from automation"
+        "description": "Name of the UiPath Data Fabric entity"
       }
     }
   },
   "outputs": {
     "type": "object",
     "properties": {
-      "exampleOutput": {
+      "remarks": {
         "type": "string",
         "required": true,
-        "description": "Example output field user must provide"
+        "description": "Reviewer's comments and observations"
       }
     }
   },
@@ -27,12 +52,10 @@
     "type": "object",
     "properties": {
       "Approve": {
-        "type": "string",
-        "description": "Approve the request"
+        "type": "string"
       },
       "Reject": {
-        "type": "string",
-        "description": "Reject the request"
+        "type": "string"
       }
     }
   }
