@@ -1,0 +1,39 @@
+{
+  "inputs": {
+    "type": "object",
+    "properties": {
+      "exampleInput": {
+        "type": "string",
+        "required": true,
+        "description": "Example input field from automation"
+      }
+    }
+  },
+  "outputs": {
+    "type": "object",
+    "properties": {
+      "exampleOutput": {
+        "type": "string",
+        "required": true,
+        "description": "Example output field user must provide"
+      }
+    }
+  },
+  "inOuts": {
+    "type": "object",
+    "properties": {}
+  },
+  "outcomes": {
+    "type": "object",
+    "properties": {
+      "Approve": {
+        "type": "string",
+        "description": "Approve the request"
+      },
+      "Reject": {
+        "type": "string",
+        "description": "Reject the request"
+      }
+    }
+  }
+}
