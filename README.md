@@ -2,7 +2,7 @@
 
 A professional UiPath Action App for reviewing documents from Storage Buckets, analyzing Data Fabric entity records, and capturing reviewer decisions with remarks.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/swati354/uipath-document-review-action)
 
 ## Overview
 
@@ -177,7 +177,7 @@ For local development, the application uses mock data when not running in Action
 
 ### Cloudflare Pages
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/swati354/uipath-document-review-action)
 
 1. **Build the application**
    ```bash
